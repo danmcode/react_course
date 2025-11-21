@@ -20,6 +20,7 @@ npm i && npm run dev
 
 ## Project file system
 
+```bash
 .
 ├── README.md
 ├── README.md
@@ -48,6 +49,7 @@ npm i && npm run dev
 │   ├── style.css
 │   └── vite-env.d.ts
 └── tsconfig.json -> TS configurations, how we want TS works in our project
+```
 
 ### package.json scripts
 
