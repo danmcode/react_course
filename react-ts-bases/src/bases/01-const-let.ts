@@ -1,9 +1,14 @@
-const firstName: string = 'Fernando';
-let lastName = 'Herrera';
+const firstName: string = 'Daniel';
+let lastName = 'Muelas';
 
 let diceNumber = 5;
 diceNumber = 3;
 
-const containsLetterH = lastName.includes('H');
+const containsLetterM = lastName.includes('M');
 
-console.log({ containsLetterH, diceNumber, firstName, lastName });
+console.log({
+    containsLetterM,
+    diceNumber,
+    firstName,
+    lastName
+});

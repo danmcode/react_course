@@ -1,4 +1,4 @@
-import type { GiphyRandomResponse, Gif } from '../data/giphy.response';
+import type { GiphyRandomResponse } from '../data/giphy.response';
 
 const API_KEY = 'EOkVlTm41v1dJn3aFYvY4GQyrNGHH6RH';
 
@@ -14,7 +14,8 @@ const getRandomGifUrl = async (): Promise<string> => {
     `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`
   );
 
-  const { data }: GiphyRandomResponse = await response.json();
+  const { data }: GiphyRandomResponse =
+    await response.json();
 
   return data.images.original.url;
 };

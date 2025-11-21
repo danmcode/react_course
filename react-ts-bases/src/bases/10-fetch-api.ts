@@ -1,4 +1,4 @@
-import type { GiphyRandomResponse, Gif } from '../data/giphy.response';
+import type { GiphyRandomResponse } from '../data/giphy.response';
 
 const API_KEY = 'EOkVlTm41v1dJn3aFYvY4GQyrNGHH6RH';
 
